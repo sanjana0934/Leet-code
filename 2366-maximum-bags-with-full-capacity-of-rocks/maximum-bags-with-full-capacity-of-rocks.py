@@ -10,6 +10,8 @@ class Solution:
             if additionalRocks>=i:
                 additionalRocks-=i
                 count+=1
+            else:
+                break
             
         return count
 
